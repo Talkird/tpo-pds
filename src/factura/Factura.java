@@ -97,11 +97,11 @@ public class Factura {
         this.monto = monto;
     }
 
-    public StringgetCorreo() {
+    public String getCorreo() {
         return correo;
     }
 
-    public void setCorreo(Stringcorreo) {
+    public void setCorreo(String correo) {
         this.correo = correo;
     }
 
