@@ -29,7 +29,8 @@ public class PacienteTest {
                 pf.generatePaciente("Santiago", "Perez", "Lima 123", "23367899", "OSDE", new Date(),
                         new String("luismartinez@gmail.com"), Tipo.REGULAR, 45001377));
 
-        verify(loggerMock).log("Nuevo paciente registrado: Santiago");
+        verify(loggerMock).log("Nuevo paciente registrado: Santiago"); // remplazando "Santiago" por "Santiaga" devuelve
+                                                                       // un error
     }
 
 }

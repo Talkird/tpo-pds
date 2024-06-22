@@ -1,7 +1,11 @@
 {
-    "java.project.sourcePaths": ["src"],
-    "java.project.outputPath": "bin",
-    "java.project.referencedLibraries": [
-        "lib/**/*.jar"
-    ]
+  "java.project.sourcePaths": ["src"],
+  "java.project.outputPath": "bin",
+  "java.project.referencedLibraries": [
+    "c:\\Users\\losau\\Desktop\\tpo-pds\\lib\\objenesis-3.3.jar",
+    "c:\\Users\\losau\\Desktop\\tpo-pds\\lib\\mockito-core-5.12.0.jar",
+    "c:\\Users\\losau\\Desktop\\tpo-pds\\lib\\byte-buddy-agent-1.14.15.jar",
+    "c:\\Users\\losau\\Desktop\\tpo-pds\\lib\\byte-buddy-1.14.15.jar",
+    "c:\\Users\\losau\\Desktop\\tpo-pds\\lib\\junit.jar"
+  ]
 }
