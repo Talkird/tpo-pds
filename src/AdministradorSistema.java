@@ -51,7 +51,6 @@ public class AdministradorSistema implements Subject {
 
     public void registrarPaciente(Paciente paciente) {
         turnos.put(paciente, new ArrayList<Turno>());
-        logger.log("Nuevo paciente registrado: " + paciente.getNombre());
         this.notifyObservers("Nuevo paciente registrado: " + paciente.getNombre());
     }
 
